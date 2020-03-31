@@ -1,0 +1,410 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: OpenSans-Regular;
+	font-size: 12px;
+	overflow:hidden;
+}
+
+#header_1{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	background-color: #363636; 
+	color: #f7f64e;
+	padding: 8px 10px 8px 10px;
+	overflow: auto;
+}
+.just_2{
+	color: #FFFFFF;
+    font-family: arial,verdana,helvetica,sans-serif;
+    float: right;
+    display: inline-block;
+    margin: 0px 10px 0px 10px;
+    font-weight: bold;
+}
+.left{
+	margin-right: 250px;
+}
+.exam_names{
+  	background-color: #38a9eb;
+  	color: #FFFFFF;
+  	padding: 7px 15px 7px 15px;
+  	width: auto;
+  	display: inline-block;
+  	font-size: 13px;
+  	font-family: arial,verdana,helvetica,sans-serif;
+	border: 1px solid #38a9eb;
+}
+#exam_name{
+	background-color: #eeeeee;
+	padding: 10px 20px 10px 20px;
+}
+#time{
+	border-bottom: 1px solid #c3c3c1;
+    font-size: 12px;
+	padding: 8px 10px 8px 10px;
+	overflow: auto;
+}
+#time_left{
+	float: right;
+	display: inline-block;
+    margin: 0px 10px 0px 10px;
+    font-weight: bold;
+}
+.section_selected{
+	padding: 10px 15px 10px 15px;
+	background: #4e85c5;
+    color: #fff;
+    border-right: 1px solid #c3c3c1;
+    border-bottom: 1px solid #c3c3c1;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    float: left; 
+    cursor: pointer;
+}
+.section_unselected{
+	cursor: pointer;
+	padding: 10px 15px 10px 15px;
+	color: #36ace9;
+    border-right: 1px solid #c3c3c1;
+    border-bottom: 1px solid #c3c3c1;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    float: left;
+}
+#section_names{
+	overflow: auto;
+	height: 35px;
+}
+#view_in_lang{
+	background: #4e85c5 none repeat scroll 0 0;
+    color: #fff;
+    overflow: auto;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+	vertical-align: middle;
+}
+.just_3{
+	font-size:12px;
+    font-weight: bold;
+    padding-right: 2px;
+    float: right;
+    display: inline-block;
+    margin-right: 5px;
+    padding-top: 5px;
+}
+#lang_select{
+	font-size: 13px;
+    font-weight: normal;
+    border: 1px solid #7E9DB9;
+    font-family: Tahoma, Geneva, sans-serif;
+    padding: 2px 20px 2px 0px;
+}
+#question_area_scrollable{
+	background-image: url("download.png");
+    overflow: auto;
+    height: 350px;
+}
+.question-title{
+	border-bottom: 1px solid #dbdbdb;
+    font-weight: bold;
+    padding: 7px;
+    text-align: left;
+    font-size: 17px;
+}
+#section_info_img{
+	margin: 10px 0px 0px 15px;
+}
+#next_options{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border: 1px solid #c3c3c1;
+	overflow: auto;
+	padding-left: 10px;
+}
+.button{
+	color: #252525;
+	background-color: #fff;
+	border:1px solid #c8c8c8;
+	border-radius:2px;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 400;
+    padding: 10px 20px 10px 20px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 8px 2px 8px 2px;
+	float: left;
+	font-family: arial,verdana,helvetica,sans-serif;
+	cursor: pointer;
+}
+.button:hover{
+	background-color: #0c7cd5;
+	color: #FFFFFF;
+	border-color: #0a68b4;
+}
+
+#next{
+	background-color: #0c7cd5;
+	color: #FFFFFF;
+	float: right;
+	margin-right: 10px;
+}
+#sidebar{
+	position: absolute;
+	right: 0;
+	top: 85px;
+	width: 250px;
+}
+
+#person_info{
+	overflow: auto;
+	background-color: #f8fbff;
+}
+#profile_img{
+	float: left;
+	border: 1px solid #c3c3c1;
+    border-radius: 1px;
+    height: 99px;
+    width: 89px;
+    vertical-align: middle;
+    margin: 7px;
+    display: inline-block;
+}
+#cname{
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	display: inline-block;
+	margin: 10px;
+}
+#border{
+	border: 2px solid #000;
+    border-right: none;
+    margin-top: 5px;
+}
+#color_info{
+	width: 100%;
+	padding-left: 9px;
+	padding-bottom: 12px;
+	overflow: auto;
+}
+.just_4{
+	width: 43%;
+	margin-top: 10px;
+	float: left;
+}
+.just_5{
+	background: url("https://www.digialm.com/OnlineAssessment/images/questions-sprite.png");
+    float: left;
+    height: 26px;
+    margin-right: 10px;
+    width: 29px;
+    color: #fff;
+    padding-top: 6px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.just_6{
+	font-family: Arial,Helvetica,sans-serif;
+
+}
+#long{
+	width: 86%;
+}
+#small_header{
+	background: #4e85c5 none repeat scroll 0 0;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+#questions_select_area{
+	background: #e5f6fd;
+	font-weight: bold;
+	overflow: auto;
+	padding: 10px;
+	height: 183px;
+}
+.item{
+    font-family: Arial, Helvetica, sans-serif;
+	background-position: -57px -6px;
+    width: 49px;
+    height: 33px;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+    font-weight: normal;
+    margin-right: 2px;
+    text-align: center;
+    padding-top: 12px;
+	background: url("https://www.digialm.com/OnlineAssessment/images/questions-sprite.png");
+	display: inline-block;
+
+}
+#palette-list{
+	margin-top: 12px;
+	overflow: auto;
+	display: inline-block;
+}
+
+.non_clickable{
+	pointer-events: none;
+}
+.na{ 
+	margin-bottom: 10px;
+    background-position: -57px -6px;
+    color: #ffffff;
+ }
+ .na:hover{
+ 	background-position: -57px -127px;
+}
+.a{
+	margin-bottom: 10px;
+	background-position: -4px -5px;
+	color: #ffffff;
+}
+.a:hover{
+ 	background-position: -4px -126px;
+}
+.nv{
+	margin-bottom: 10px;
+	background-position: -157px -4px;
+	color: #000000;
+}
+.nv:hover{
+	background-position: -157px -4px;
+}
+.mr{ 
+	margin-bottom: 0px;
+	height: 40px;
+	background-position: -108px -1px;
+    padding-top: 15px;
+    color: #ffffff;
+}
+.mr:hover{
+	background-position: -108px -122px;
+}
+.amr{
+	margin-bottom: 0px;
+	height: 40px;
+	background-position: -66px -178px;
+	padding-top: 15px;
+	color: #ffffff;
+}
+#submit{
+	background-color: #0c7cd5;
+	color: #FFFFFF;
+	margin-right: 80px;
+	margin-left: 80px;
+	display: inline-block;
+}
+#submit_container{
+    background: #e5f6fd;
+    border: 1px solid #c3c3c1;
+    overflow: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.question{
+	background-color: #ffffff;
+  	font-size: 19px;
+  	margin-bottom: 10px;
+}
+.answers{
+	background-color: #ffffff;
+	font-size: 19px;
+  	margin-bottom: 20px;
+  	text-align: left;
+  	display: inline-block;
+}
+.answers label{
+  	display: block;
+  	margin-bottom: 10px;
+}
+#quiz{
+	position:relative;
+}
+.slide{
+	padding-left: 20px;
+	padding-right: 300px;
+  	width: 100%;
+  	z-index: 1;
+  	opacity: 0;
+  	transition: opacity 0s;
+  	position:absolute; top:0; left:0;
+}
+.active-slide{
+  	opacity: 1;
+  	z-index: 2;
+}
+#favourite{
+   	font-family: sans-serif;
+    font-size: 15px;
+    background-color: #FFF;
+    color: #000;
+    border-radius: 3px;
+    padding: 7px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    border: 1px solid #279;
+    border-color: #279;
+    display: inline-block;
+}
+label{
+	background-color: #ffffff;
+	padding: 10px;
+}
+#favourite_box{
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+	position: absolute;
+	top: 25px;
+	right: 0;
+}
+#reload{
+	color: #252525;
+	background-color: #fff;
+	border:1px solid #c8c8c8;
+	border-radius:2px;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: 400;
+    padding: 3px 10px 3px 10px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 2px 2px 8px 2px;
+	font-family: arial,verdana,helvetica,sans-serif;
+	cursor: pointer;
+	float: right;
+}
+#f_choice{
+	margin-top: 5px;
+	margin-right: 10px;
+	padding-right: 10px;
+}
+#favourrite_view{
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	bottom: 40px;
+	right: 40px;
+	overflow: auto;
+	opacity: 0;
+	font-size: 15px;
+	margin: 15px;
+	padding: 15px;
+	background-color: #fff;
+}
