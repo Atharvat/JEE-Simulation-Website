@@ -3,6 +3,8 @@ A mock-JEE website to give tests scanned from the Questions OCR App to get stude
 
 You can visit the website here: https://atharvat.github.io/JEE-Simulation-Website/
 
+Github link for the OCR App: https://github.com/Atharvat/Questions_OCR_App
+
 ![](images/3.png)
 
 Different question sets are avaiable under the sections heading. You can navigate to different questions using the bottom panel or using the questions palette on the right.
